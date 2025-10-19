@@ -2,7 +2,7 @@ annotated-types==0.7.0
 anyio==4.11.0
 beautifulsoup4==4.14.2
 certifi==2025.10.5
-charset-normalizer 3.4.3
+charset-normalizer==3.4.3
 distro==1.9.0
 grpcio==1.75.1
 h11==0.16.0

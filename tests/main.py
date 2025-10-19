@@ -1,11 +1,13 @@
 
+import sys
+sys.path.append("/home/wanger/codes/arxiv_agent/")
 from datetime import datetime
 
 
 from src.agent import LLMAgent
 from src.config_loader import ConfigLoader
-from src.arxiv_fetcher import ArxivFetcher
-from src.html2md import html2markdown
+from src.tools.arxiv_fetcher import ArxivFetcher
+from src.tools.html2md import html2markdown
 
 # llm = LLMAgent(provider="deepseek", config_path="/home/wanger/codes/arxiv_agent/config/config.yaml")
 llm = LLMAgent(provider="alibaba", config_path="/home/wanger/codes/arxiv_agent/config/config.yaml")
